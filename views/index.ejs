@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <title>Mon Application EX10</title>
+</head>
+<body>
+  <table>
+    <form action="/adresse" method="POST">
+    <tr>
+      <td><input type="text" placeholder="nom" name="nom"></td>
+      <td><input type="text" placeholder="prenom" name="prenom"></td>
+      <td><input type="text" placeholder="telephone" name="telephone"></td>
+      <td></td>
+      <td></td>
+      <td><button type="submit">+</button></td>
+    </tr>
+    </form>
+    <tr>
+      <td>NOM</td>
+      <td>PRENOM</td>
+      <td>TELEPHONE</td>
+      <td>ID</td>
+      <td></td>
+      <td></td>
+    </tr>
+  <% for(var i=0; i<adresse.length; i++) {%>
+    <tr>
+    <form action="/modifier/<%= adresse[i]._id %>" method="POST">
+      <td><input type="text" placeholder="nom" name="nom" value="<%= adresse[i].nom %>"></td>
+      <td><input type="text" placeholder="prenom" name="prenom" value="<%= adresse[i].prenom %>"></td>
+      <td><input type="text" placeholder="telephone" name="telephone" value="<%= adresse[i].telephone %>"></td>
+      <td><input type="text" placeholder="id" name="id" value="<%= adresse[i]._id %>" readonly></td>
+      <td><button type="submit"><i id='save' class="fa fa-floppy-o" aria-hidden="true" fa-5x></i></button></td>
+      <td><a href="/detruire/<%= adresse[i]._id %>"><i id="poubelle" class="fa fa-trash-o fa-4x" aria-hidden="true"></i></a></td>
+    </form>
+    </tr>
+  <% } %>
+</table>
+  
+  <script type="text/javascript" src="modifier_adresse.js"></script>
+
+</body>
+</html>
+
+<div contenteditable="true"></div>

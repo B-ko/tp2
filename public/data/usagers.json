@@ -1,0 +1,20 @@
+{
+   "user1" : {
+      "nom" : "Martiné",
+	  "motpasse" : "motpasse1",
+	  "profession" : "Professeur",
+	  "id": 1
+   },
+   "user2" : {
+   	  "nom" : "Latulippe",
+	  "motpasse" : "motpasse2",
+	  "profession" : "Programmeur",
+	  "id": 2
+   },
+   "user3" : {
+      "nom" : "Fortin",
+	  "motpasse" : "motpasse3",
+	  "profession" : "Directeur",
+	  "id": 3
+   }
+}

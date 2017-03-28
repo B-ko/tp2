@@ -1,0 +1,28 @@
+{
+  "name": "tp2",
+  "version": "1.0.0",
+  "description": "Tp2",
+  "main": "11_apps_mongodb.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivier Pic",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-ko/tp2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/B-ko/tp2/issues"
+  },
+  "homepage": "https://github.com/B-ko/tp2#readme"
+}
