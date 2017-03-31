@@ -5,8 +5,8 @@ body{
 	-webkit-justify-content:center;
 	    -ms-flex-pack:center;
 	        justify-content:center;
-	-webkit-align-content:center;
-	    -ms-flex-line-pack:center;
+	-ms-flex-line-pack:center;
+	    -webkit-align-content:center;
 	        align-content:center;
 }
 
@@ -29,8 +29,12 @@ table, td, th {
 
 table {
     border-collapse: collapse;
+    display:-webkit-flex;
+    display:-ms-flexbox;
     display:flex;
-    align-content:stretch;
+    -webkit-align-content:stretch;
+        -ms-flex-line-pack:stretch;
+            align-content:stretch;
 }
 
 input {
