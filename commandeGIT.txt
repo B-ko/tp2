@@ -3313,3 +3313,37 @@ To https://github.com/B-ko/tp2.git
 
 e1348790@B1153-G92NFX1 MINGW64 /c/Users/e1348790/Desktop/Pic_tp2 (master)
 $
+
+Olivier@vroumvroum MINGW64 ~/Documents/School/Session 8/veille/tp2-master/tp2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in public/css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/less/style.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp2.js.
+The file will have its original line endings in your working directory.
+
+Olivier@vroumvroum MINGW64 ~/Documents/School/Session 8/veille/tp2-master/tp2 (master)
+$ git commit -m 'flexbox et autre chose'
+[master warning: LF will be replaced by CRLF in public/css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/less/style.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp2.js.
+The file will have its original line endings in your working directory.
+c3958d3] flexbox et autre chose
+warning: LF will be replaced by CRLF in public/css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/less/style.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp2.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 82 insertions(+), 1 deletion(-)
+
+Olivier@vroumvroum MINGW64 ~/Documents/School/Session 8/veille/tp2-master/tp2 (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+Olivier@vroumvroum MINGW64 ~/Documents/School/Session 8/veille/tp2-master/tp2 (master)
+$
